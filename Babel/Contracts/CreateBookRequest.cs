@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Babel.Service.Entities
+namespace Babel.Web.Contracts
 {
-    public class BookDto
+    public class CreateBookRequest
     {
         public int Id { get; set; }
         public string NoVolumen { get; set; }

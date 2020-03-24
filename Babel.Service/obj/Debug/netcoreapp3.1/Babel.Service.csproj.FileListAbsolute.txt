@@ -6,3 +6,4 @@ C:\Users\abc\source\repos\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Serv
 C:\Users\abc\source\repos\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Service.pdb
 C:\Users\abc\source\repos\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.dll
 C:\Users\abc\source\repos\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.pdb
+C:\Users\abc\source\repos\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.csprojAssemblyReference.cache
