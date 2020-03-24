@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babel.Web", "Babel\Babel.Web.csproj", "{A87DCB11-83E8-4157-8800-CA4606041735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babel.Service", "Babel.Service\Babel.Service.csproj", "{1619BAA6-77B0-462B-92C0-2E157E7D57CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87DCB11-83E8-4157-8800-CA4606041735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87DCB11-83E8-4157-8800-CA4606041735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87DCB11-83E8-4157-8800-CA4606041735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87DCB11-83E8-4157-8800-CA4606041735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1619BAA6-77B0-462B-92C0-2E157E7D57CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1619BAA6-77B0-462B-92C0-2E157E7D57CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1619BAA6-77B0-462B-92C0-2E157E7D57CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1619BAA6-77B0-462B-92C0-2E157E7D57CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2B8B71F-0A88-4830-8DDE-B1903693B5CE}
+	EndGlobalSection
+EndGlobal
