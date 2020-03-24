@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Babel.Service.Entities;
+using Babel.Service.Interfaces;
 using Babel.Web.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,19 +11,15 @@ namespace Babel.Web.Controllers
 {
     public class BookController : Controller
     {
-        private List<BookDto> books;
+        private readonly IBookService bookService;
 
-        public BookController()
+        public BookController(IBookService bookService)
         {
-            books = new List<BookDto>();
-
-            books.Add(new BookDto() { Id = 1, NoVolumen = "Volumen 1", Descripcion = "Libro A" });
-            books.Add(new BookDto() { Id = 2, NoVolumen = "Volumen 2", Descripcion = "Libro B" });
-            books.Add(new BookDto() { Id = 3, NoVolumen = "Volumen 3", Descripcion = "Libro C" });
+            this.bookService = bookService;
         }
 
         [HttpPost]
-        public IEnumerable<BookDto> Create([FromBody]CreateBookRequest newBook)
+        public async Task<IEnumerable<BookDto>> Create([FromBody]CreateBookRequest newBook)
         {
             var book = new BookDto()
             {
@@ -30,42 +27,51 @@ namespace Babel.Web.Controllers
                 Descripcion = newBook.Descripcion
             };
 
-            books.Add(book);
+            await bookService.Create(book);
 
-            return books;
+            var result = new List<BookDto>();
+            result.Add(book);
+
+            return result;
         }
 
         [HttpPut]
-        public IEnumerable<BookDto> Update([FromBody]CreateBookRequest updatedBook)
+        public async Task<IEnumerable<BookDto>> Update([FromBody]CreateBookRequest updateBook)
         {
-            books.Find(e => e.Id == updatedBook.Id).NoVolumen = updatedBook.NoVolumen;
-            books.Find(e => e.Id == updatedBook.Id).Descripcion = updatedBook.Descripcion;
+            var book = new BookDto()
+            {
+                Id = updateBook.Id,
+                NoVolumen = updateBook.NoVolumen,
+                Descripcion = updateBook.Descripcion
+            };
 
-            return books;
+            await bookService.Update(book);
+
+            var result = new List<BookDto>();
+            result.Add(book);
+
+            return result;
         }
 
         [HttpDelete]
-        public IEnumerable<BookDto> Delete(int id)
+        public async Task<IEnumerable<BookDto>> Delete(int id)
         {
-            //  happy path, not handling errors
-            var book = books.Find(e => e.Id == id);
-            books.Remove(book);
-            
-            return books;
+            await bookService.Delete(id);
+
+            var result = new List<BookDto>();
+            return result;
         }
 
         [HttpGet]
-        public IEnumerable<BookDto> GetAll()
+        public async Task<IEnumerable<BookDto>> GetAll()
         {
-
-            return books;
+            return await bookService.GetAll();
         }
 
         [HttpGet]
-        public IEnumerable<BookDto> GetById(int id)
+        public async Task<IEnumerable<BookDto>> GetById(int id)
         {
-            //  happy path, not handling errors
-            var book = books.Find(e => e.Id == id);
+            var book = await bookService.GetById(id);
             var result = new List<BookDto>();
             result.Add(book);
 

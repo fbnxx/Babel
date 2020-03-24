@@ -111,7 +111,7 @@ export class AddBook extends Component {
                 </div >
 
                 <div className="form-group row" >
-                    <label className=" control-label col-md-12" htmlFor="Descripcion">No Volumen</label>
+                    <label className=" control-label col-md-12" htmlFor="Descripcion">Descripcion</label>
                     <div className="col-md-4">
                         <input
                             className="form-control"

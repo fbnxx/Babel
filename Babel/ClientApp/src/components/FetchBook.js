@@ -18,12 +18,8 @@ export class FetchBook extends Component {
             fetch('book/Delete/' + id, {
                 method: 'delete'
             }).then(data => {
-                this.setState(
-                    {
-                        empList: this.state.books.filter((rec) => {
-                            return (rec.id !== id);
-                        })
-                    });
+                alert("Libro eliminado.");
+                this.populateBooksData();
             });
         
     }

@@ -7,3 +7,17 @@ C:\Users\abc\source\repos\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Serv
 C:\Users\abc\source\repos\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.dll
 C:\Users\abc\source\repos\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.pdb
 C:\Users\abc\source\repos\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.csprojAssemblyReference.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Service.deps.json
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Service.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Service.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.AssemblyInfoInputs.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.AssemblyInfo.cs
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Data.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Domain.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Data.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\bin\Debug\netcoreapp3.1\Babel.Domain.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.csprojAssemblyReference.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Service\obj\Debug\netcoreapp3.1\Babel.Service.csproj.CopyComplete

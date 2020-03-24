@@ -1,0 +1,15 @@
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Data.deps.json
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Data.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Data.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.csprojAssemblyReference.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.AssemblyInfoInputs.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.AssemblyInfo.cs
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Domain.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Domain.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.csproj.CopyComplete
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Data.runtimeconfig.json
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\bin\Debug\netcoreapp3.1\Babel.Data.runtimeconfig.dev.json
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Data\obj\Debug\netcoreapp3.1\Babel.Data.genruntimeconfig.cache

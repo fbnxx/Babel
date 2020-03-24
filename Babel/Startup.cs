@@ -1,7 +1,13 @@
+using Babel.Data.Context;
+using Babel.Data.Interfaces;
+using Babel.Data.UnitOfWork;
+using Babel.Service;
+using Babel.Service.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -21,6 +27,13 @@ namespace Babel
         public void ConfigureServices(IServiceCollection services)
         {
             //  GFPL
+
+            services.AddDbContext<BabelDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            );
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IBookService, BookService>();
 
             //  --------------------------
 

@@ -1,0 +1,9 @@
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\bin\Debug\netcoreapp3.1\Babel.Domain.deps.json
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\bin\Debug\netcoreapp3.1\Babel.Domain.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\bin\Debug\netcoreapp3.1\Babel.Domain.pdb
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\obj\Debug\netcoreapp3.1\Babel.Domain.csprojAssemblyReference.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\obj\Debug\netcoreapp3.1\Babel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\obj\Debug\netcoreapp3.1\Babel.Domain.AssemblyInfoInputs.cache
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\obj\Debug\netcoreapp3.1\Babel.Domain.AssemblyInfo.cs
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\obj\Debug\netcoreapp3.1\Babel.Domain.dll
+C:\Users\abc\source\babelRemote\Babel\Babel.Domain\obj\Debug\netcoreapp3.1\Babel.Domain.pdb
